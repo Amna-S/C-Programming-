@@ -1,0 +1,52 @@
+//comparison operators:
+//equals to ==
+/*#include <iostream>
+int main()
+{
+    int x = 7;
+    int y = 9;
+    std::cout<<(x==y)<<"\n";//equals to
+    std::cout<<(x != y)<<"\n";//not equal to
+    std::cout<<(x > y)<<"\n";//greater than
+    std::cout<<(x < y)<<"\n";//less than
+    std::cout<<(x >= y)<<"\n";//greater than and equals to
+    std::cout<<(x <= y);//less than and equals to
+    return 0;
+}*/
+//logical operators:
+//&& logical and:(returns true if both statements are true)
+/*#include <iostream>
+int main()
+{
+    int a=9;
+    int b=6;
+    std::cout<<(a>b && b<a);
+    return 0;
+}*/
+//|| logical or:(returns true if one statement is true)
+/*#include <iostream>
+int main()
+{
+    int a=9;
+    int b=6;
+    std::cout<<(a>b || a<b);
+    return 0;
+}*/
+//! logical not:(reverse the result, will return false if result is true)
+/*#include <iostream>
+int main()
+{
+    int a=9;
+    int b=6;
+    std::cout<<(!(a>b && b<a));
+    return 0;
+}*/
+//strings:
+#include <iostream>
+#include <string>
+int main()
+{
+ std::string day="thursday";
+ std::cout<<day;
+ return 0;
+}
